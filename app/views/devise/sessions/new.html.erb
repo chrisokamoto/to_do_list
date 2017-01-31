@@ -1,0 +1,22 @@
+<h1><%= t ".header" %></h1>
+
+<%= bootstrap_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="row">
+    <div class="col col-xs-12 col-sm-6">
+      <%= f.email_field :email, autofocus: true %>
+    </div>
+  </div>
+  <div class="row ibox">
+    <div class="col col-xs-12 col-sm-6">
+      <%= f.password_field :password, autocomplete: "off", label: t(".password_label") %>
+      <%= link_to t(".forgot_password"), new_password_path(resource_name) %><br />
+    </div>
+  </div>
+  <div class="ibox">
+    <%= button_tag type: :submit, class: "btn btn-primary" do %>
+      <i class="fa fa-sign-in"></i> <%= t ".login" %>
+    <% end %>
+  </div>
+<% end %>
+
+<%= link_to t(".register"), new_user_registration_path %>

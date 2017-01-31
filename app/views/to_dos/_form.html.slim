@@ -1,0 +1,25 @@
+= form_for @to_do do |f|
+  - if @to_do.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@to_do.errors.count, "error")}"
+      ul
+        - @to_do.errors.full_messages.each do |message|
+          li = message
+
+  .field.form-group
+    = f.label :title
+    = f.text_field :title, class: 'form-control'
+    
+    
+    
+    
+  
+  .field.form-group
+    = f.label :deadline
+    = f.text_field :deadline, class: 'form-control'
+    
+  .field.form-group
+    = f.label :description
+    = f.text_area :description, class: 'form-control'
+  .actions
+    = f.submit 'Salvar', class: 'btn btn-primary'

@@ -1,0 +1,10 @@
+pt-BR:
+  pending: 'Pendente'
+  finished: 'Realizado'
+  mongoid:
+    attributes:
+      to_do:
+        title: 'Título'
+        description: 'Descrição'
+        deadline: 'Prazo'
+        finished_at: 'Finalizado em'

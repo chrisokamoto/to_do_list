@@ -1,0 +1,16 @@
+<h1 class="ibox"><%= t '.header' %></h1>
+
+<%= bootstrap_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+
+  <div class="row ibox">
+    <div class="col col-xs-12">
+      <%== t ".body" %>
+    </div>
+  </div>
+  <div class="row ibox">
+    <div class="col-xs-4">
+      <%= f.email_field :email, autofocus: true %>
+      <%= f.submit t('.submit'), class: 'btn btn-primary' %>
+    </div>
+  </div>
+<% end %>
