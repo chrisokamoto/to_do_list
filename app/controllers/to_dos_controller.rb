@@ -11,22 +11,21 @@ class ToDosController < ApplicationController
 
     respond_to do |format|
      if @to_do.save
-        format.html { redirect_to to_dos_path, notice: 'Tarefa criada com sucesso.' }
-        format.json { render :show, status: :created, location: @to_do }
-        else
-          format.html { render :new }
-          format.json { render json: @to_do.errors, status: :unprocessable_entity }
-        end
+      format.html { redirect_to to_dos_path, notice: 'Tarefa criada com sucesso.' }
+      format.json { render :show, status: :created, location: @to_do }
+      else
+        format.html { render :new }
+        format.json { render json: @to_do.errors, status: :unprocessable_entity }
+      end
     end
   end
 
   def update
-
-        if @to_do.update(to_do_params)
-          redirect_to to_dos_path, notice: 'Tarefa atualizada com sucesso.'
-        else
-          render :edit
-        end
+    if @to_do.update(to_do_params)
+      redirect_to to_dos_path, notice: 'Tarefa atualizada com sucesso.'
+    else
+      render :edit
+    end
   end
 
   def finish
@@ -42,7 +41,6 @@ class ToDosController < ApplicationController
 
   def destroy
     @to_do.destroy
-
     redirect_to to_dos_url
   end
 
@@ -51,10 +49,7 @@ class ToDosController < ApplicationController
       @to_do = ToDo.find(params[:id])
     end
 
-      def to_do_params
-        params.require(:to_do).permit(:title, :description, :deadline, :finished_at)
-      end
-
-
-
+    def to_do_params
+      params.require(:to_do).permit(:title, :description, :deadline, :finished_at)
+    end
 end

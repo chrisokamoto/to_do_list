@@ -230,6 +230,7 @@ pt-BR:
         forgot_password: "ESQUECI A SENHA"
       user:
         signed_in: Usuário logado
+        signed_out: ""
     passwords:
       new:
         header: "Esqueceu sua senha?"
