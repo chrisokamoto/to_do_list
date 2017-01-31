@@ -1,0 +1,35 @@
+h1 Tarefas
+
+table.table.table-striped
+  thead
+    tr
+      th Título
+      th Descrição
+      th Prazo
+      th Finalizado em
+      th Status
+      th
+      th
+      th
+
+  tbody
+    - ToDo.all.each do |to_do|
+      tr
+        td = to_do.title
+        td = to_do.description
+        td = to_do.deadline
+        td = to_do.finished_at
+        - if to_do.status == :pending
+          td
+            span.label.label-default = t to_do.status
+        - elsif to_do.status == :finished
+          td
+            span.label.label-success = t to_do.status
+        
+        td = link_to 'Marcar como feito', finish_to_do_path(to_do), class: 'btn btn-xs btn-primary'
+        td = link_to 'Editar', edit_to_do_path(to_do)
+        td = link_to 'Apagar', to_do, data: { confirm: 'Você tem certeza?' }, method: :delete
+
+br
+
+= link_to 'Adicionar novo', new_to_do_path, class: 'btn btn-primary'
