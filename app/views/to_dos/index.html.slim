@@ -27,7 +27,10 @@ br
             td
               span.label.label-success = t to_do.status
           
-          td = link_to 'Marcar como feito', finish_to_do_path(to_do), class: 'btn btn-xs btn-primary'
+          - if to_do.status == :pending
+            td = link_to 'Marcar como feito', finish_to_do_path(to_do), class: 'btn btn-xs btn-primary'
+          - else
+            td = link_to 'Marcar como não-feito', unfinish_to_do_path(to_do), class: 'btn btn-xs btn-primary'
           td = link_to 'Editar', edit_to_do_path(to_do)
           td = link_to 'Apagar', to_do, data: { confirm: 'Você tem certeza?' }, method: :delete
 - else

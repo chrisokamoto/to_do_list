@@ -1,6 +1,6 @@
 class ToDosController < ApplicationController
   before_action :authenticate_user!
-  before_action :set_to_do, only: [:edit, :update, :destroy, :finish]
+  before_action :set_to_do, only: [:edit, :update, :destroy, :finish, :unfinish]
 
   def new
     @to_do = ToDo.new
@@ -31,12 +31,23 @@ class ToDosController < ApplicationController
 
   def finish
     @to_do.status = :finished
-    @to_do.finished_at = Date.today.strftime("%d/%m/%Y")
+    @to_do.finished_at = DateTime.now.strftime("%d/%m/%Y %H:%M")
 
     if @to_do.save
       redirect_to to_dos_path
     else
       redirect_to to_dos_path, alert: 'Não foi possível finalizar tarefa.'
+    end
+  end
+
+  def unfinish
+    @to_do.status = :pending
+    @to_do.finished_at = nil
+
+    if @to_do.save
+      redirect_to to_dos_path
+    else
+      redirect_to to_dos_path, alert: 'Não foi possível salvar.'
     end
   end
 
