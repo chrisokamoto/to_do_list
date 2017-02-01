@@ -5,4 +5,5 @@ class ToDo
   field :deadline, type: String
   field :finished_at, type: String
   field :status, type: Symbol, default: :pending
+  field :user_id, type: String
 end

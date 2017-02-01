@@ -8,6 +8,7 @@ class ToDosController < ApplicationController
 
   def create
     @to_do = ToDo.new(to_do_params)
+    @to_do.user_id = current_user.id
 
     respond_to do |format|
      if @to_do.save

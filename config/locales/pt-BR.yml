@@ -229,7 +229,7 @@ pt-BR:
         register: Registrar
         forgot_password: "ESQUECI A SENHA"
       user:
-        signed_in: Usuário logado
+        signed_in: ""
         signed_out: ""
     passwords:
       new:
@@ -253,5 +253,9 @@ pt-BR:
         go_to_login: Voltar para a tela de login
         password_label: Sua senha
         password_confirmation: Confirme sua senha
+      user:
+        signed_up: ""
     failure:
       already_authenticated: ""
+  to_dos:
+    no_tasks: Você ainda não criou tarefas
