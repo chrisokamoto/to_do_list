@@ -15,11 +15,11 @@ class ToDosController < ApplicationController
     @to_do.user_id = current_user.id
 
     respond_to do |format|
-     if @to_do.save
-      format.html { redirect_to to_dos_path, notice: 'Tarefa criada com sucesso.' }
-      format.json { render :show, status: :created, location: @to_do }
+      if @to_do.save
+        format.html { redirect_to to_dos_path, notice: 'Tarefa criada com sucesso.' }
+        format.json { render :show, status: :created, location: @to_do }
       else
-        format.html { render :new }
+        format.html { render :new, status: 500 }
         format.json { render json: @to_do.errors, status: :unprocessable_entity }
       end
     end
@@ -29,7 +29,7 @@ class ToDosController < ApplicationController
     if @to_do.update(to_do_params)
       redirect_to to_dos_path, notice: 'Tarefa atualizada com sucesso.'
     else
-      render :edit
+      render :edit, status: 500
     end
   end
 

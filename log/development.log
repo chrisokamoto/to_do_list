@@ -49595,3 +49595,2568 @@ MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"to_dos",
 MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000554658s
   Rendered to_dos/index.html.slim within layouts/application (6.1ms)
 Completed 200 OK in 242ms (Views: 237.2ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 01:57:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.1ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 01:58:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (97.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (130.8ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 01:59:02 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.5ms)
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{}}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.325005916s
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-01 15:14:25 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (227.1ms)
+Completed 200 OK in 1424ms (Views: 1325.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-01 15:14:27 -0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 281ms (Views: 278.4ms)
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:27 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:27 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:27 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:27 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:28 -0200
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2017-02-01 15:14:30 -0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wk5EXhbmjD16myrrZAKaptfhJ44glUBELb54OgHoy+8=", "user"=>{"email"=>"christiane.okamoto@gmail.com", "password"=>"[FILTERED]"}, "button"=>""}
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"christiane.okamoto@gmail.com"}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.0011859350000000002s
+MONGODB | localhost:27017 | todo_development.update | STARTED | {"update"=>"users", "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "u"=>{"$set"=>{"last_sign_in_at"=>2017-02-01 02:11:49 UTC, "current_sign_in_at"=>2017-02-01 17:14:30 UTC, "sign_in_count"=>19}}, "multi"=>false, "upsert"=>false...
+MONGODB | localhost:27017 | todo_development.update | SUCCEEDED | 0.27644795699999997s
+Redirected to http://localhost:3000/to_dos
+Completed 302 Found in 550ms
+
+
+Started GET "/to_dos" for 127.0.0.1 at 2017-02-01 15:14:30 -0200
+Processing by ToDosController#index as HTML
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.0009602769999999999s
+MONGODB | localhost:27017 | todo_development.count | STARTED | {"count"=>"to_dos", "query"=>{"user_id"=>"5890eb3d9ad76d7eb457e0f4"}}
+MONGODB | localhost:27017 | todo_development.count | SUCCEEDED | 0.023926217s
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"to_dos", "filter"=>{"user_id"=>"5890eb3d9ad76d7eb457e0f4"}, "sort"=>{"finished_at"=>1, "deadline"=>1}}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.001034264s
+  Rendered to_dos/index.html.slim within layouts/application (59.1ms)
+Completed 200 OK in 362ms (Views: 341.4ms)
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:31 -0200
+
+
+Started GET "/to_dos/new" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+Processing by ToDosController#new as HTML
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000854329s
+  Rendered to_dos/_form.html.slim (18.0ms)
+  Rendered to_dos/new.html.slim within layouts/application (29.5ms)
+Completed 200 OK in 311ms (Views: 305.9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-02-01 15:14:34 -0200
+
+
+Started POST "/to_dos" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+Processing by ToDosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3L8NAc2BWkodiPaBg5G5oQ2kCskTNDR54buUwhmwJD4=", "to_do"=>{"title"=>"", "deadline"=>"", "description"=>""}, "commit"=>"Salvar"}
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.0010613419999999998s
+  Rendered to_dos/_form.html.slim (3.8ms)
+  Rendered to_dos/new.html.slim within layouts/application (4.4ms)
+Completed 200 OK in 293ms (Views: 284.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-02-01 15:14:36 -0200
+
+
+Started POST "/to_dos" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+Processing by ToDosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3L8NAc2BWkodiPaBg5G5oQ2kCskTNDR54buUwhmwJD4=", "to_do"=>{"title"=>"oi", "deadline"=>"", "description"=>""}, "commit"=>"Salvar"}
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000892339s
+  Rendered to_dos/_form.html.slim (5.4ms)
+  Rendered to_dos/new.html.slim within layouts/application (6.5ms)
+Completed 200 OK in 316ms (Views: 308.6ms)
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-02-01 15:14:41 -0200
+
+
+Started POST "/to_dos" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+Processing by ToDosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3L8NAc2BWkodiPaBg5G5oQ2kCskTNDR54buUwhmwJD4=", "to_do"=>{"title"=>"oi", "deadline"=>"01/02/2017 15:14", "description"=>""}, "commit"=>"Salvar"}
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000584434s
+MONGODB | localhost:27017 | todo_development.insert | STARTED | {"insert"=>"to_dos", "documents"=>[{"_id"=>BSON::ObjectId('589217879ad76d433c514044'), "status"=>:pending, "title"=>"oi", "description"=>"", "deadline"=>"01/02/2017 15:14", "user_id"=>"5890eb3d9ad76d7eb457e0f4"}], "ordered"=>true}
+MONGODB | localhost:27017 | todo_development.insert | SUCCEEDED | 0.298396173s
+Redirected to http://localhost:3000/to_dos
+Completed 302 Found in 305ms
+
+
+Started GET "/to_dos" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+Processing by ToDosController#index as HTML
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.0005880519999999999s
+MONGODB | localhost:27017 | todo_development.count | STARTED | {"count"=>"to_dos", "query"=>{"user_id"=>"5890eb3d9ad76d7eb457e0f4"}}
+MONGODB | localhost:27017 | todo_development.count | SUCCEEDED | 0.000425199s
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"to_dos", "filter"=>{"user_id"=>"5890eb3d9ad76d7eb457e0f4"}, "sort"=>{"finished_at"=>1, "deadline"=>1}}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000408585s
+  Rendered to_dos/index.html.slim within layouts/application (6.6ms)
+Completed 200 OK in 287ms (Views: 282.8ms)
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:47 -0200
+
+
+Started GET "/to_dos/589217879ad76d433c514044/edit" for 127.0.0.1 at 2017-02-01 15:14:57 -0200
+Processing by ToDosController#edit as HTML
+  Parameters: {"id"=>"589217879ad76d433c514044"}
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000551515s
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"to_dos", "filter"=>{"_id"=>BSON::ObjectId('589217879ad76d433c514044')}}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.00034611s
+  Rendered to_dos/_form.html.slim (3.1ms)
+  Rendered to_dos/edit.html.slim within layouts/application (7.4ms)
+Completed 200 OK in 298ms (Views: 293.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-02-01 15:14:58 -0200
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:15:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (82.4ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (17.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (158.0ms)
+
+
+Started PATCH "/to_dos/589217879ad76d433c514044" for 127.0.0.1 at 2017-02-01 15:15:01 -0200
+Processing by ToDosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3L8NAc2BWkodiPaBg5G5oQ2kCskTNDR54buUwhmwJD4=", "to_do"=>{"title"=>"", "deadline"=>"01/02/2017 15:14", "description"=>""}, "commit"=>"Salvar", "id"=>"589217879ad76d433c514044"}
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000533611s
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"to_dos", "filter"=>{"_id"=>BSON::ObjectId('589217879ad76d433c514044')}}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000452783s
+  Rendered to_dos/_form.html.slim (2.9ms)
+  Rendered to_dos/edit.html.slim within layouts/application (3.6ms)
+Completed 200 OK in 239ms (Views: 230.9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-02-01 15:15:02 -0200
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:16:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.8ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:17:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.0ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:18:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.1ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.0ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:19:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.5ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:20:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (51.0ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.3ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:21:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+Processing by Devise::SessionsController#new as HTML
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000762369s
+Redirected to http://localhost:3000/to_dos
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms
+
+
+Started GET "/to_dos" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+Processing by ToDosController#index as HTML
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000700452s
+MONGODB | localhost:27017 | todo_development.count | STARTED | {"count"=>"to_dos", "query"=>{"user_id"=>"5890eb3d9ad76d7eb457e0f4"}}
+MONGODB | localhost:27017 | todo_development.count | SUCCEEDED | 0.000805798s
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"to_dos", "filter"=>{"user_id"=>"5890eb3d9ad76d7eb457e0f4"}, "sort"=>{"finished_at"=>1, "deadline"=>1}}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.001328857s
+  Rendered to_dos/index.html.slim within layouts/application (16.7ms)
+Completed 200 OK in 257ms (Views: 246.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:11 -0200
+
+
+Started GET "/to_dos/new" for 127.0.0.1 at 2017-02-01 15:21:12 -0200
+Processing by ToDosController#new as HTML
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000881623s
+  Rendered to_dos/_form.html.slim (4.8ms)
+  Rendered to_dos/new.html.slim within layouts/application (5.8ms)
+Completed 200 OK in 300ms (Views: 294.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-02-01 15:21:13 -0200
+
+
+Started POST "/to_dos" for 127.0.0.1 at 2017-02-01 15:21:17 -0200
+Processing by ToDosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3L8NAc2BWkodiPaBg5G5oQ2kCskTNDR54buUwhmwJD4=", "to_do"=>{"title"=>"dddd", "deadline"=>"02/02/2017 15:21", "description"=>""}, "commit"=>"Salvar"}
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000769924s
+MONGODB | localhost:27017 | todo_development.insert | STARTED | {"insert"=>"to_dos", "documents"=>[{"_id"=>BSON::ObjectId('5892190d9ad76d433c514045'), "status"=>:pending, "title"=>"dddd", "description"=>"", "deadline"=>"02/02/2017 15:21", "user_id"=>"5890eb3d9ad76d7eb457e0f4"}], "ordered"=>true}
+MONGODB | localhost:27017 | todo_development.insert | SUCCEEDED | 0.00083634s
+Redirected to http://localhost:3000/to_dos
+Completed 200 OK in 54ms
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:22:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.4ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.8ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:23:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.3ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:24:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.4ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:25:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.5ms)
+
+
+Started POST "/to_dos" for 127.0.0.1 at 2017-02-01 15:25:34 -0200
+Processing by ToDosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3L8NAc2BWkodiPaBg5G5oQ2kCskTNDR54buUwhmwJD4=", "to_do"=>{"title"=>"dddd", "deadline"=>"02/02/2017 15:21", "description"=>""}, "commit"=>"Salvar"}
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.00088258s
+MONGODB | localhost:27017 | todo_development.insert | STARTED | {"insert"=>"to_dos", "documents"=>[{"_id"=>BSON::ObjectId('58921a0e9ad76d433c514046'), "status"=>:pending, "title"=>"dddd", "description"=>"", "deadline"=>"02/02/2017 15:21", "user_id"=>"5890eb3d9ad76d7eb457e0f4"}], "ordered"=>true}
+MONGODB | localhost:27017 | todo_development.insert | SUCCEEDED | 0.000584508s
+Redirected to http://localhost:3000/to_dos
+Completed 302 Found in 23ms
+
+
+Started GET "/to_dos" for 127.0.0.1 at 2017-02-01 15:25:34 -0200
+Processing by ToDosController#index as HTML
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000920806s
+MONGODB | localhost:27017 | todo_development.count | STARTED | {"count"=>"to_dos", "query"=>{"user_id"=>"5890eb3d9ad76d7eb457e0f4"}}
+MONGODB | localhost:27017 | todo_development.count | SUCCEEDED | 0.0007567849999999999s
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"to_dos", "filter"=>{"user_id"=>"5890eb3d9ad76d7eb457e0f4"}, "sort"=>{"finished_at"=>1, "deadline"=>1}}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.00082374s
+  Rendered to_dos/index.html.slim within layouts/application (9.9ms)
+Completed 200 OK in 299ms (Views: 292.5ms)
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:25:35 -0200
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:26:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (32.9ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:27:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.3ms)
+
+
+Started GET "/to_dos/new" for 127.0.0.1 at 2017-02-01 15:27:47 -0200
+Processing by ToDosController#new as HTML
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.0008329469999999999s
+  Rendered to_dos/_form.html.slim (3.7ms)
+  Rendered to_dos/new.html.slim within layouts/application (4.3ms)
+Completed 200 OK in 301ms (Views: 289.7ms)
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:47 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:47 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:47 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:47 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:47 -0200
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:47 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-02-01 15:27:47 -0200
+
+
+Started POST "/to_dos" for 127.0.0.1 at 2017-02-01 15:27:48 -0200
+Processing by ToDosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3L8NAc2BWkodiPaBg5G5oQ2kCskTNDR54buUwhmwJD4=", "to_do"=>{"title"=>"", "deadline"=>"", "description"=>""}, "commit"=>"Salvar"}
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000583645s
+  Rendered to_dos/_form.html.slim (5.6ms)
+  Rendered to_dos/new.html.slim within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 251ms (Views: 241.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:49 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:49 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:49 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:49 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:49 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:49 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-02-01 15:27:49 -0200
+
+
+Started POST "/to_dos" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+Processing by ToDosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3L8NAc2BWkodiPaBg5G5oQ2kCskTNDR54buUwhmwJD4=", "to_do"=>{"title"=>"", "deadline"=>"", "description"=>""}, "commit"=>"Salvar"}
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000805021s
+  Rendered to_dos/_form.html.slim (3.8ms)
+  Rendered to_dos/new.html.slim within layouts/application (5.1ms)
+Completed 200 OK in 312ms (Views: 229.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-02-01 15:27:58 -0200
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:28:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+Processing by Devise::SessionsController#new as HTML
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000653472s
+Redirected to http://localhost:3000/to_dos
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms
+
+
+Started GET "/to_dos" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+Processing by ToDosController#index as HTML
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000652145s
+MONGODB | localhost:27017 | todo_development.count | STARTED | {"count"=>"to_dos", "query"=>{"user_id"=>"5890eb3d9ad76d7eb457e0f4"}}
+MONGODB | localhost:27017 | todo_development.count | SUCCEEDED | 0.000637457s
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"to_dos", "filter"=>{"user_id"=>"5890eb3d9ad76d7eb457e0f4"}, "sort"=>{"finished_at"=>1, "deadline"=>1}}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000769774s
+  Rendered to_dos/index.html.slim within layouts/application (9.4ms)
+Completed 200 OK in 255ms (Views: 242.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:27 -0200
+
+
+Started GET "/to_dos/589217879ad76d433c514044/edit" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+Processing by ToDosController#edit as HTML
+  Parameters: {"id"=>"589217879ad76d433c514044"}
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.001120518s
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"to_dos", "filter"=>{"_id"=>BSON::ObjectId('589217879ad76d433c514044')}}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.00046199100000000003s
+  Rendered to_dos/_form.html.slim (5.3ms)
+  Rendered to_dos/edit.html.slim within layouts/application (6.4ms)
+Completed 200 OK in 314ms (Views: 304.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-02-01 15:28:30 -0200
+
+
+Started PATCH "/to_dos/589217879ad76d433c514044" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+Processing by ToDosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3L8NAc2BWkodiPaBg5G5oQ2kCskTNDR54buUwhmwJD4=", "to_do"=>{"title"=>"", "deadline"=>"01/02/2017 15:14", "description"=>""}, "commit"=>"Salvar", "id"=>"589217879ad76d433c514044"}
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000690573s
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"to_dos", "filter"=>{"_id"=>BSON::ObjectId('589217879ad76d433c514044')}}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000578082s
+  Rendered to_dos/_form.html.slim (2.8ms)
+  Rendered to_dos/edit.html.slim within layouts/application (3.5ms)
+Completed 200 OK in 311ms (Views: 300.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-02-01 15:28:33 -0200
+
+
+Started PATCH "/to_dos/589217879ad76d433c514044" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+Processing by ToDosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3L8NAc2BWkodiPaBg5G5oQ2kCskTNDR54buUwhmwJD4=", "to_do"=>{"title"=>"", "deadline"=>"01/02/2017 15:14", "description"=>""}, "commit"=>"Salvar", "id"=>"589217879ad76d433c514044"}
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5890eb3d9ad76d7eb457e0f4')}, "limit"=>1, "singleBatch"=>true}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.001275119s
+MONGODB | localhost:27017 | todo_development.find | STARTED | {"find"=>"to_dos", "filter"=>{"_id"=>BSON::ObjectId('589217879ad76d433c514044')}}
+MONGODB | localhost:27017 | todo_development.find | SUCCEEDED | 0.000742325s
+  Rendered to_dos/_form.html.slim (4.2ms)
+  Rendered to_dos/edit.html.slim within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 321ms (Views: 300.9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/todo.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap-variables.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap-generators.css?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap-datetimepicker.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/moment.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/todo.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff2" for 127.0.0.1 at 2017-02-01 15:28:48 -0200
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:29:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.4ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:30:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.1ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:31:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.6ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:32:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.9ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:33:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.4ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:34:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.8ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:35:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.0ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:36:02 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.3ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:37:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.9ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:38:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.0ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:39:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.6ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:40:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.4ms)
+
+
+Started GET "/crons/check_status_timeouts" for 127.0.0.1 at 2017-02-01 15:41:01 -0200
+
+ActionController::RoutingError (No route matches [GET] "/crons/check_status_timeouts"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/chris/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/chris/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.2ms)
