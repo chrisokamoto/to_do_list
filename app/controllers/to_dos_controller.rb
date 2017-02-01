@@ -3,7 +3,7 @@ class ToDosController < ApplicationController
   before_action :set_to_do, only: [:edit, :update, :destroy, :finish, :unfinish]
 
   def index
-    @todos = ToDo.where(user_id: current_user.id).order(deadline: :asc)
+    @todos = ToDo.where(user_id: current_user.id).order(finished_at: :asc, deadline: :asc)
   end
 
   def new

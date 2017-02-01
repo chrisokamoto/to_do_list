@@ -6,20 +6,26 @@
         - @to_do.errors.full_messages.each do |message|
           li = message
 
-  .field.form-group
-    = f.label :title
-    = f.text_field :title, class: 'form-control'
-    
-    
-    
-    
-  
-  .field.form-group
-    = f.label :deadline
-    = f.text_field :deadline, class: 'form-control'
-    
-  .field.form-group
-    = f.label :description
-    = f.text_area :description, class: 'form-control'
+  .row
+    .col-sm-10
+      .field.form-group
+        = f.label :title
+        = f.text_field :title, class: 'form-control'
+      
+  .row
+    .col-sm-3
+      .form-group
+        = f.label :deadline
+        .input-group.date#datetimepicker
+          = f.text_field :deadline, class: 'form-control', id: 'datetime-value', readonly: true, data: {"date-format" => "DD/MM/YYYY HH:mm"}
+          span class="input-group-addon"
+            span class="glyphicon glyphicon-calendar"
+      
+  .row
+    .col-sm-10
+      .field.form-group
+        = f.label :description
+        = f.text_area :description, class: 'form-control'
+      
   .actions
     = f.submit 'Salvar', class: 'btn btn-primary'

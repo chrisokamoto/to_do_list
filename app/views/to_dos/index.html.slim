@@ -18,12 +18,12 @@ br
         tr
           td = to_do.title
           td = to_do.description
-          td = to_do.deadline.strftime("%d/%m/%Y %H:%M")
+          td = to_do.deadline
           td = to_do.finished_at.nil? ? "" : to_do.finished_at.strftime("%d/%m/%Y %H:%M")
           - if to_do.status == :finished
             td
               span.label.label-success = t to_do.status          
-          - elsif to_do.deadline < DateTime.now
+          - elsif DateTime.parse(to_do.deadline).to_datetime < DateTime.now
             td
               span.label.label-danger = t :late
           - elsif to_do.status == :pending
