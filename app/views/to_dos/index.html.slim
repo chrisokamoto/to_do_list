@@ -1,6 +1,6 @@
 h1 Tarefas - #{current_user.email}
 br
-- if ToDo.where(user_id: current_user.id).size > 0
+- if @todos.size > 0
   table.table.table-striped
     thead
       tr
@@ -14,19 +14,21 @@ br
         th
 
     tbody
-      - ToDo.where(user_id: current_user.id).each do |to_do|
+      - @todos.each do |to_do|
         tr
           td = to_do.title
           td = to_do.description
-          td = to_do.deadline
-          td = to_do.finished_at
-          - if to_do.status == :pending
+          td = to_do.deadline.strftime("%d/%m/%Y %H:%M")
+          td = to_do.finished_at.nil? ? "" : to_do.finished_at.strftime("%d/%m/%Y %H:%M")
+          - if to_do.status == :finished
             td
-              span.label.label-default = t to_do.status
-          - elsif to_do.status == :finished
+              span.label.label-success = t to_do.status          
+          - elsif to_do.deadline < DateTime.now
             td
-              span.label.label-success = t to_do.status
-          
+              span.label.label-danger = t :late
+          - elsif to_do.status == :pending
+            td
+              span.label.label-default = t to_do.status          
           - if to_do.status == :pending
             td = link_to 'Marcar como feito', finish_to_do_path(to_do), class: 'btn btn-xs btn-primary'
           - else

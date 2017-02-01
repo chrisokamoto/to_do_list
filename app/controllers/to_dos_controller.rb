@@ -2,6 +2,10 @@ class ToDosController < ApplicationController
   before_action :authenticate_user!
   before_action :set_to_do, only: [:edit, :update, :destroy, :finish, :unfinish]
 
+  def index
+    @todos = ToDo.where(user_id: current_user.id).order(deadline: :asc)
+  end
+
   def new
     @to_do = ToDo.new
   end

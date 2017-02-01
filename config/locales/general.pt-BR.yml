@@ -1,6 +1,7 @@
 pt-BR:
   pending: 'Pendente'
   finished: 'Realizado'
+  late: Atrasado
   mongoid:
     attributes:
       to_do:
