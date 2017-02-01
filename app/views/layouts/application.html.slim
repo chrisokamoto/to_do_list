@@ -22,11 +22,7 @@ html
             .navbar-header
               button.navbar-toggle.collapsed type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"
               = link_to "Tarefas", root_path, class: "navbar-brand"
-            #navbar.collapse.navbar-collapse
-              ul.nav.navbar-nav
-                li.active
-                  a href=root_path
-                    | Home              
+            #navbar.collapse.navbar-collapse            
               ul.nav.navbar-right
                 li
                   = link_to "SAIR", destroy_user_session_path, :method => :delete, class: "navbar-signout-link"                           
