@@ -21,11 +21,11 @@ html
           .container
             .navbar-header
               button.navbar-toggle.collapsed type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"
-              = link_to "Tarefas", root_path, class: "navbar-brand"
+              = link_to t("application.tasks"), root_path, class: "navbar-brand"
             #navbar.collapse.navbar-collapse            
               ul.nav.navbar-right
                 li
-                  = link_to "SAIR", destroy_user_session_path, :method => :delete, class: "navbar-signout-link"                           
+                  = link_to t("application.logout"), destroy_user_session_path, :method => :delete, class: "navbar-signout-link"                           
         .container
           - flash.each do |name, msg|
             - if msg.present?

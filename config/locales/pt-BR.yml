@@ -259,3 +259,17 @@ pt-BR:
       already_authenticated: ""
   to_dos:
     no_tasks: Você ainda não criou tarefas
+  application:
+    tasks: Tarefas
+    logout: SAIR
+  edit:
+    edit_task: Editando tarefa
+  index:
+    header: Tarefas - %{user_email}
+    set_as_done: Marcar como feito
+    set_as_undone: Marcar como não-feito
+    edit: Editar
+    delete: Apagar
+    new: Adicionar nova
+  new:
+    new_task: Nova tarefa
